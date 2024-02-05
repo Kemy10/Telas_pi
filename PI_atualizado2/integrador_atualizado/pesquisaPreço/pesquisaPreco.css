@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.pesquisar{
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    background-color: #2196f3;
+    padding: 30px;
+}
+
+label{
+    margin: 10px;
+}

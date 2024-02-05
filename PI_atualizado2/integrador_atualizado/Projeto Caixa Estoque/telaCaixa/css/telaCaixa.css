@@ -1,0 +1,236 @@
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 98vh;
+    background-color: rgb(138, 138, 135);
+}
+
+.fundo-geral__main {
+    border: 2px transparent solid;
+    width: 1400px;
+    height: 900px;
+    background-color: #009ED0;
+}
+
+.titulo-comeco {
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 2px transparent solid;
+    width: 1350px;
+    height: 60px;
+    display: flex;
+    gap: 25px;
+}
+
+.titulo {
+    border: 2px transparent solid;
+    width: 1100px;
+    height: 60px;
+    background-color: #D9D9D9;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.title {
+    color: #009ED0;
+    font-size: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 5px;
+}
+
+
+.rigth-titulo {
+    border: 2px transparent solid;
+    width: 230px;
+    height: 60px;
+    background-color: #D9D9D9;
+}
+
+.divisorias {
+    border: 2px transparent solid;
+    width: 1350px;
+    height: 755px;
+    margin-top: 25px;
+    margin-left: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+.divisoria1 {
+    border: 2px transparent solid;
+    width: 675px;
+    height: 755px;
+}
+
+.quadrado1 {
+    border: 2px transparent solid;
+    width: 675px;
+    height: 400px;
+    display: flex;
+    gap: 25px;
+}
+
+.img-produto {
+    border: 1px black solid;
+    width: 425px;
+    height: 400px;
+    background-color: #D9D9D9;
+}
+
+.barra-unitario-item {
+    border: 2px transparent solid;
+    width: 225px;
+    height: 400px;
+}
+
+.barra-unitario-item-quadrado {
+    border: 1px black solid;
+    width: 225px;
+    height: 115px;
+    background-color: #D9D9D9;
+    border-radius: 0 0 10px 10px;
+}
+
+.barra-unitario-item-quadrado2 {
+    border: 1px black solid;
+    width: 225px;
+    height: 115px;
+    background-color: #D9D9D9;
+    margin-top: 25px;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.title-barra-unitario-item {
+    border: 2px transparent solid;
+    margin-top: -2px;
+    height: 20px;
+    margin-left: -2px;
+    background-color: #00789D;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.quadrado2 {
+    border: 2px transparent solid;
+    height: 150px;
+    width: 675px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.codigo {
+    border: 1px black solid;
+    width: 300px;
+    height: 115px;
+    background-color: #D9D9D9;
+    margin-top: 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+.title-codigo {
+    border: 2px transparent solid;
+    margin-top: -2px;
+    height: 20px;
+    margin-left: -2px;
+    background-color: #00789D;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.quadrado-informacao {
+    border: 2px transparent solid;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.quadrados-info {
+    border: 1px black solid;
+    width: 190px;
+    height: 150px;
+    background-color: #D9D9D9;
+}
+
+.divisoria2 {
+    border: 2px transparent solid;
+    width: 675px;
+    height: 755px;
+}
+
+.lista-produtos {
+    border: 1px black solid;
+    width: 650px;
+    height: 450px;
+    background-color: #D9D9D9;
+    border-radius: 0 0 10px 10px;
+    text-transform: uppercase;
+}
+
+.title-lista-produtos {
+    border: 2px transparent solid;
+    height: 20px;
+    width: 650px;
+    padding-right: 2px;
+    margin-left: -2px;
+    margin-top: -2px;
+    background-color: #00789D;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.sub-total {
+    border: 1px black solid;
+    height: 115px;
+    background-color: #D9D9D9;
+    margin-top: 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+.total-recebido-troco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+#caixa,
+#codigo_inteiro,
+#cantas_receber,
+#digitar_cpf,
+#excluir_produto,
+#excluir_venda,
+#finalizar_compra,
+#forma_pagamento,
+#imprimir_nota,
+#inserir_quantidade,
+#nova_venda,
+#pesquisar_preco,
+#pesquisar_produto,
+#pesquisar_venda,
+#sair_compra,
+#tela_login,
+#tela_caixa {
+    display: none;
+}

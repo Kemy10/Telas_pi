@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.finalizar{
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    background-color: #2196f3;
+    margin: 200px;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Compra{
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    padding: 25px;
+
+}
+
+label{
+    margin: 15px;
+}
+
+input{
+    width: 300px;
+
+}
